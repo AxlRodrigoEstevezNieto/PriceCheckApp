@@ -1,0 +1,1484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0005307377066EC46EA91823415301C6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2B6EA70488BF517E184822DF8D83E4 /* UIView+Extensions.swift */; };
+		12576FA40395138A8369CE1927AC95CE /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2621DB26007701C083D1E5C66501F9 /* TorchMode.swift */; };
+		15B757A7DF113FAD35D971E80B8AE008 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2455BA42AF18E41BD7ED0B2BE41EA0C /* SwiftSpinner.swift */; };
+		18FE128DDC9711307814EFEA96F85B6D /* Pods-PriceCheckAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56CB87219BE5BB8D0366260C90CCADF7 /* Pods-PriceCheckAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198BC6AFAA9201AF3153CC03861EEEA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		262CBFB84815CDE8C006B8E72B5ED13F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B984DFFBA04A7378BBCF628D453682A /* UIViewController+Extensions.swift */; };
+		29872BD5684D9B93082A02B26684AB39 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */; };
+		3755448ECF8EE78693A364B8990D9F53 /* BarcodeScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C1E5F058948556734D49E668F68CA5 /* BarcodeScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415BE2E3E30FD82A139CC98BF0500AFF /* Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D4F7DD33CFC7D10A5666918BD22CC5 /* Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEC9BCF7384FD789A5D0BAB2F77991F /* BarcodeScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E404A0700120B0ABB13DD5D5156F80B4 /* BarcodeScanner-dummy.m */; };
+		4D25059912454444DF59C99116F5C283 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C25B5D974AA06E04D8DE0F6CC9E2C85 /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B91BC525B65A26660D8E4D9EA231FD5 /* Pods-PriceCheckAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE1BFAF6465A2DB5FEF4D48CAF39C1 /* Pods-PriceCheckAppTests-dummy.m */; };
+		680B059446FFF16F47325F84BC69462B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		6C33077F6BBEEFA137313CA1525A18DE /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F6D7C6837C31A60B9E15631DC5D6ED /* BarcodeScannerViewController.swift */; };
+		6CCC68077295A821AC9C1E7CC2BC35BC /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B9A16CD74434E9B6F9F866220F3430 /* NSLayoutConstraint+Extensions.swift */; };
+		700C48768FCAEF0F35A4C9B252B20A0C /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2113278028527A052C7FF5CF6F938AE6 /* AVMetadataObject+Extensions.swift */; };
+		7FB57AA7F0DF91F474FBD94FCA284452 /* BarcodeScanner-BarcodeScanner in Resources */ = {isa = PBXBuildFile; fileRef = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */; };
+		88E05E2A8AAEB63A4C5FEBE94C189EBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		89CB7B9546C1B309C1FFBF2795E5A6EA /* cameraRotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C64571F6F3214F76FAA7F0F5654ABD /* cameraRotate@3x.png */; };
+		8D100AF17E7FB178FF428DE211ED597E /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586C4C389623215792E97894F8ED9EC7 /* HeaderViewController.swift */; };
+		921A023C684E698C7099351B6E5AA416 /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CE1556BA55A0755DE3FCFE75BBB7AB /* SwiftSpinner-dummy.m */; };
+		A0CE10B2AB5F96D28540B30454BF6E62 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9305E817A34833E80CAF1A6A0A66E /* CameraViewController.swift */; };
+		AD6075168BAA4075F6323680C03184B4 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 677A3587B131DC3C7C16A48F7C54C4CE /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADE02B44B0F6B14EDF45330E5C28ADF6 /* BarcodeScanner-Localization in Resources */ = {isa = PBXBuildFile; fileRef = 74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */; };
+		AEF3382B2B75D817C09620B3098A328F /* flashOn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C50FB3FE1E1784E38C81FFB3BCBD1A61 /* flashOn@3x.png */; };
+		B447CB1C46B8F0DD2AAAB486883CE1CB /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97D8EC3EBE220034C7F22B754E1B548 /* FocusViewType.swift */; };
+		B63FC2A88AC455B73333E8B9E3A13E73 /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D55E1105552A0483D11A8E7EAB4DD29 /* info@3x.png */; };
+		B73809773535B14850B581F2C2D86597 /* Pods-PriceCheckApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B38FD54D8411C98C942624503F128B3 /* Pods-PriceCheckApp-dummy.m */; };
+		C3AA8B4CFA5BE1FF5F4B5BB1DD8053A0 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F879F4F80B216EF5294828AA657FD73 /* MessageViewController.swift */; };
+		C667B80535ACFF3B7F42D8AB7E2C9BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		C93AF790D67555D90C3738BAC1FA56C7 /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCA08D8387DCB028FEA6BDB893F38A7 /* VideoPermissionService.swift */; };
+		D662143A0910C9B23280638F12BA98E6 /* Pods-PriceCheckApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7F5A3C7F5FA435BCE5A74607FA382A /* Pods-PriceCheckApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE48FF6F1159E55422298DCAA72897BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */; };
+		DF3BF6EAD1BC4BF290B9A159F457773A /* flashOff@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 041BD0F49C029675C4E763968CAC1557 /* flashOff@3x.png */; };
+		EE5A01E096A12A0DD4822EE9CD5ABD6F /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CC0D3868E2476A89B73931438B9E7E /* Functions.swift */; };
+		F3628F9EA2720397EAA98D740AF494F8 /* Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7286186A21E2F70D14CDAF6B6066782 /* Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m */; };
+		F4A348094FCFDE23E73114F875AB7F54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		FB79E22B68033224D3D1621A408C68B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */; };
+		FF20513A9C5371CB65C56402A850B36F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8342F0F64980130F3B35929D90FB50D /* State.swift */; };
+		FFBD12C02875E4B06F4EFD7CB007CE53 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB482DB47F8D6DA1906896142A7EE306 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0073E9BFA9C4FDCB5201AD7DCC868F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		1D7E0BE70FA937688953DE5E34BEB131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D656AC88E303625E9AA42D19C21D75;
+			remoteInfo = BarcodeScanner;
+		};
+		5C7E39AC758F5EF188FBA4086CBFA917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E136446D8E897681981873306A783A;
+			remoteInfo = "BarcodeScanner-BarcodeScanner";
+		};
+		6A8BEB4994807C2C98246827F2D54DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6AB655C132B9B011FC04DDC1E3A292;
+			remoteInfo = SwiftSpinner;
+		};
+		6F44006CB316C31417E1DD911CA7FAA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2598A00DF974C904143778EDC46CC0E5;
+			remoteInfo = "BarcodeScanner-Localization";
+		};
+		AE70EE253CF2F3E37DF92D30C03BAB8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0374D36D946A499689D970CD435E1C9;
+			remoteInfo = "Pods-PriceCheckApp";
+		};
+		F813F563B84A6F94DCDB1EF3FFEBA918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6AB655C132B9B011FC04DDC1E3A292;
+			remoteInfo = SwiftSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0213EACB491CC07C492688E98D1F5E37 /* Pods-PriceCheckApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckApp-Info.plist"; sourceTree = "<group>"; };
+		041BD0F49C029675C4E763968CAC1557 /* flashOff@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOff@3x.png"; path = "Images/flashOff@3x.png"; sourceTree = "<group>"; };
+		04AA11D0B96D6A7C6A2933B0184836F6 /* BarcodeScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.debug.xcconfig; sourceTree = "<group>"; };
+		0816850C2BF58E9444BC6B671B9466CA /* BarcodeScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-prefix.pch"; sourceTree = "<group>"; };
+		0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CE805952B4DEEA148C4CECE9E2E9D9D /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F34E513207769FD69CD8936A189931C /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1C25B5D974AA06E04D8DE0F6CC9E2C85 /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2113278028527A052C7FF5CF6F938AE6 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVMetadataObject+Extensions.swift"; path = "Sources/Extensions/AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2630B24FFC04D082A981F99694D9C4B4 /* Pods-PriceCheckApp-PriceCheckAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PriceCheckApp-PriceCheckAppUITests.modulemap"; sourceTree = "<group>"; };
+		2B38FD54D8411C98C942624503F128B3 /* Pods-PriceCheckApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PriceCheckApp-dummy.m"; sourceTree = "<group>"; };
+		2D55E1105552A0483D11A8E7EAB4DD29 /* info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "info@3x.png"; path = "Images/info@3x.png"; sourceTree = "<group>"; };
+		2D9FD1AFA7F36A0F92CD148114F75F1F /* BarcodeScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BarcodeScanner.modulemap; sourceTree = "<group>"; };
+		2F7F5A3C7F5FA435BCE5A74607FA382A /* Pods-PriceCheckApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriceCheckApp-umbrella.h"; sourceTree = "<group>"; };
+		31D4F7DD33CFC7D10A5666918BD22CC5 /* Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		38CE1556BA55A0755DE3FCFE75BBB7AB /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		3B984DFFBA04A7378BBCF628D453682A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		3FBD850081BB2B256D3C091C9A82D351 /* Pods-PriceCheckApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		433A0037EB9C1ADCEB14043A677A8B9B /* Pods-PriceCheckAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C09088CA4686E0AB79B1B9C47A94F91 /* SwiftSpinner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSpinner-Info.plist"; sourceTree = "<group>"; };
+		4F879F4F80B216EF5294828AA657FD73 /* MessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageViewController.swift; path = Sources/Controllers/MessageViewController.swift; sourceTree = "<group>"; };
+		523EF01FA56CFDF4B8B00A054F4A790C /* Pods-PriceCheckApp-PriceCheckAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PriceCheckApp-PriceCheckAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		56BE773F5A222D0CB3CFEA5D3F73137A /* Pods-PriceCheckApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PriceCheckApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56CB87219BE5BB8D0366260C90CCADF7 /* Pods-PriceCheckAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PriceCheckAppTests-umbrella.h"; sourceTree = "<group>"; };
+		586C4C389623215792E97894F8ED9EC7 /* HeaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeaderViewController.swift; path = Sources/Controllers/HeaderViewController.swift; sourceTree = "<group>"; };
+		5DAB0CA94E8817940A348A6BA8140877 /* SwiftSpinner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.release.xcconfig; sourceTree = "<group>"; };
+		62CC0D3868E2476A89B73931438B9E7E /* Functions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Helpers/Functions.swift; sourceTree = "<group>"; };
+		62F6D7C6837C31A60B9E15631DC5D6ED /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarcodeScannerViewController.swift; path = Sources/Controllers/BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		650CD215671F4A9D3C7A4710F56F6BC2 /* Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		677A3587B131DC3C7C16A48F7C54C4CE /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = Sources/SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		6A558649367FC8C5F1B7E3B884A32A83 /* Pods-PriceCheckAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PriceCheckAppTests"; path = Pods_PriceCheckAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACE1BFAF6465A2DB5FEF4D48CAF39C1 /* Pods-PriceCheckAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PriceCheckAppTests-dummy.m"; sourceTree = "<group>"; };
+		6CCA08D8387DCB028FEA6BDB893F38A7 /* VideoPermissionService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoPermissionService.swift; path = Sources/Helpers/VideoPermissionService.swift; sourceTree = "<group>"; };
+		6F8A977A417B17B4088E3F86039C8CF7 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FE8BC41BD2D9D13826BD14D280C11D9 /* Pods-PriceCheckApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckApp.debug.xcconfig"; sourceTree = "<group>"; };
+		712A233BD7C8933576300D581F1FF922 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		7272250B65166C069FB7FC329B73B1F2 /* Pods-PriceCheckAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PriceCheckAppTests.modulemap"; sourceTree = "<group>"; };
+		74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BarcodeScanner-Localization"; path = Localization.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		755F686FA65D4ED4FEDC08FD9ABC7D58 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pl-PL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		75C64571F6F3214F76FAA7F0F5654ABD /* cameraRotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraRotate@3x.png"; path = "Images/cameraRotate@3x.png"; sourceTree = "<group>"; };
+		76C2F495274800041EDA2A2F9FB58D9D /* Pods-PriceCheckApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PriceCheckApp.modulemap"; sourceTree = "<group>"; };
+		7931E32540940E4C474B224BC128D607 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		85582B025A16671AA9750074CE230646 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		96BFEC1AF0B0877331DD9DD6C9793B03 /* SwiftSpinner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.debug.xcconfig; sourceTree = "<group>"; };
+		9D86DD3E1DB4B8B7A378836BF1736BC4 /* Pods-PriceCheckAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "BarcodeScanner-BarcodeScanner"; path = BarcodeScanner.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60FA7ADB8F300BA33EAE362A9811B79 /* BarcodeScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarcodeScanner.release.xcconfig; sourceTree = "<group>"; };
+		A671E2D77C2F55158D519B173D6822ED /* Pods-PriceCheckApp-PriceCheckAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckApp-PriceCheckAppUITests-Info.plist"; sourceTree = "<group>"; };
+		A6DE85F2DE02BD8CB4615DF3B85F949D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AA1DF313B5DC799B2AA68E1052258D7C /* Pods-PriceCheckAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckAppTests-Info.plist"; sourceTree = "<group>"; };
+		AEA9305E817A34833E80CAF1A6A0A66E /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = Sources/Controllers/CameraViewController.swift; sourceTree = "<group>"; };
+		B0A1DE96A255C6C2BEF997A226172750 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B65B45BFCA348C641C3C2536CEA3D5BA /* Pods-PriceCheckApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckApp.release.xcconfig"; sourceTree = "<group>"; };
+		B897A9C856208ECA343183F529B159FA /* Pods-PriceCheckApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PriceCheckApp"; path = Pods_PriceCheckApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B97D8EC3EBE220034C7F22B754E1B548 /* FocusViewType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusViewType.swift; path = Sources/DataStructures/FocusViewType.swift; sourceTree = "<group>"; };
+		BAF3374A11B2397BD1397AFFAD001674 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C3767C99C147342F7AC134D010DBC7D1 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C50FB3FE1E1784E38C81FFB3BCBD1A61 /* flashOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashOn@3x.png"; path = "Images/flashOn@3x.png"; sourceTree = "<group>"; };
+		C8DE2C1729DA0A9C0BE9DC3D048A6BD4 /* Pods-PriceCheckAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PriceCheckAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA44E9E229169B81428436A187DE0480 /* BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BarcodeScanner; path = BarcodeScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7286186A21E2F70D14CDAF6B6066782 /* Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m"; sourceTree = "<group>"; };
+		D8342F0F64980130F3B35929D90FB50D /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/DataStructures/State.swift; sourceTree = "<group>"; };
+		D8C1E5F058948556734D49E668F68CA5 /* BarcodeScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarcodeScanner-umbrella.h"; sourceTree = "<group>"; };
+		D8FF8900023625973586A6620D7DFC9D /* Pods-PriceCheckApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PriceCheckApp-frameworks.sh"; sourceTree = "<group>"; };
+		DA2621DB26007701C083D1E5C66501F9 /* TorchMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TorchMode.swift; path = Sources/DataStructures/TorchMode.swift; sourceTree = "<group>"; };
+		E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E404A0700120B0ABB13DD5D5156F80B4 /* BarcodeScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarcodeScanner-dummy.m"; sourceTree = "<group>"; };
+		F2455BA42AF18E41BD7ED0B2BE41EA0C /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = Sources/SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		F44D494753B8723EDB09AD6B7803D7D0 /* ResourceBundle-Localization-BarcodeScanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Localization-BarcodeScanner-Info.plist"; sourceTree = "<group>"; };
+		F4D599F84721F8E0F4E5003694FA8CD9 /* Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5DC82E9440E5C842AE64017B827155E /* Pods-PriceCheckAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PriceCheckAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F6B9A16CD74434E9B6F9F866220F3430 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Extensions.swift"; path = "Sources/Extensions/NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		FC5504EDBD6B6A9E16D6A7A786213B89 /* Pods-PriceCheckApp-PriceCheckAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PriceCheckApp-PriceCheckAppUITests"; path = Pods_PriceCheckApp_PriceCheckAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2B6EA70488BF517E184822DF8D83E4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A326B2E7DE4E89EFFC03040A287DD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EAC02C3EBED8C161DBEA75177AE6847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EDE2130521A89A7AD3D64D86EBFB05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29872BD5684D9B93082A02B26684AB39 /* AVFoundation.framework in Frameworks */,
+				FB79E22B68033224D3D1621A408C68B9 /* Foundation.framework in Frameworks */,
+				DE48FF6F1159E55422298DCAA72897BA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BD8244DC6C850359B89ED09C43CABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680B059446FFF16F47325F84BC69462B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89BDEB4A884B1410340717ED4540380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A348094FCFDE23E73114F875AB7F54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E674CE28F30909D4F253A1AF5FB0A1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198BC6AFAA9201AF3153CC03861EEEA3 /* Foundation.framework in Frameworks */,
+				88E05E2A8AAEB63A4C5FEBE94C189EBF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB457D3B7D3998BACADB4591394285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C667B80535ACFF3B7F42D8AB7E2C9BC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B9482FD3A0909A09CC53A10DBEA494 /* Pods-PriceCheckApp */ = {
+			isa = PBXGroup;
+			children = (
+				76C2F495274800041EDA2A2F9FB58D9D /* Pods-PriceCheckApp.modulemap */,
+				56BE773F5A222D0CB3CFEA5D3F73137A /* Pods-PriceCheckApp-acknowledgements.markdown */,
+				3FBD850081BB2B256D3C091C9A82D351 /* Pods-PriceCheckApp-acknowledgements.plist */,
+				2B38FD54D8411C98C942624503F128B3 /* Pods-PriceCheckApp-dummy.m */,
+				D8FF8900023625973586A6620D7DFC9D /* Pods-PriceCheckApp-frameworks.sh */,
+				0213EACB491CC07C492688E98D1F5E37 /* Pods-PriceCheckApp-Info.plist */,
+				2F7F5A3C7F5FA435BCE5A74607FA382A /* Pods-PriceCheckApp-umbrella.h */,
+				6FE8BC41BD2D9D13826BD14D280C11D9 /* Pods-PriceCheckApp.debug.xcconfig */,
+				B65B45BFCA348C641C3C2536CEA3D5BA /* Pods-PriceCheckApp.release.xcconfig */,
+			);
+			name = "Pods-PriceCheckApp";
+			path = "Target Support Files/Pods-PriceCheckApp";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439889605EFAD97B3872FAF274DF229F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09D35F1C4A5F634BA25E04D93940E276 /* BarcodeScanner */ = {
+			isa = PBXGroup;
+			children = (
+				2113278028527A052C7FF5CF6F938AE6 /* AVMetadataObject+Extensions.swift */,
+				62F6D7C6837C31A60B9E15631DC5D6ED /* BarcodeScannerViewController.swift */,
+				AEA9305E817A34833E80CAF1A6A0A66E /* CameraViewController.swift */,
+				B97D8EC3EBE220034C7F22B754E1B548 /* FocusViewType.swift */,
+				62CC0D3868E2476A89B73931438B9E7E /* Functions.swift */,
+				586C4C389623215792E97894F8ED9EC7 /* HeaderViewController.swift */,
+				4F879F4F80B216EF5294828AA657FD73 /* MessageViewController.swift */,
+				F6B9A16CD74434E9B6F9F866220F3430 /* NSLayoutConstraint+Extensions.swift */,
+				D8342F0F64980130F3B35929D90FB50D /* State.swift */,
+				DA2621DB26007701C083D1E5C66501F9 /* TorchMode.swift */,
+				FD2B6EA70488BF517E184822DF8D83E4 /* UIView+Extensions.swift */,
+				3B984DFFBA04A7378BBCF628D453682A /* UIViewController+Extensions.swift */,
+				6CCA08D8387DCB028FEA6BDB893F38A7 /* VideoPermissionService.swift */,
+				735BA4F4E02B226DD875CA4B89AC58BB /* Resources */,
+				F790AA1D7402C2EFE31CAC1A6E3EB3CD /* Support Files */,
+			);
+			name = BarcodeScanner;
+			path = BarcodeScanner;
+			sourceTree = "<group>";
+		};
+		0C85D1043343732C66E5F9D3A0FE0216 /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				677A3587B131DC3C7C16A48F7C54C4CE /* SwiftSpinner.h */,
+				F2455BA42AF18E41BD7ED0B2BE41EA0C /* SwiftSpinner.swift */,
+				C976B686CB44450A03E4D1AD56AF0C10 /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		2DEC111E9FA3B0F0ECD7FBA9BF3AFF2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09D35F1C4A5F634BA25E04D93940E276 /* BarcodeScanner */,
+				0C85D1043343732C66E5F9D3A0FE0216 /* SwiftSpinner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		405870BCC245B87003FF1E2801BA7C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */,
+				A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */,
+				74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */,
+				B897A9C856208ECA343183F529B159FA /* Pods-PriceCheckApp */,
+				FC5504EDBD6B6A9E16D6A7A786213B89 /* Pods-PriceCheckApp-PriceCheckAppUITests */,
+				6A558649367FC8C5F1B7E3B884A32A83 /* Pods-PriceCheckAppTests */,
+				0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439889605EFAD97B3872FAF274DF229F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DAEBAF7204BA39B34CF7E0E8FCFD7 /* AVFoundation.framework */,
+				25D27F53483E7691E74F88B87CD0D33A /* Foundation.framework */,
+				E3447B6A50AA430A059E8197DFCDA88F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A78DB3789010697AA564303A31DA50D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B9482FD3A0909A09CC53A10DBEA494 /* Pods-PriceCheckApp */,
+				9B47390288886ECB585D213178ACEAC9 /* Pods-PriceCheckApp-PriceCheckAppUITests */,
+				C347FE7C923E1305E3EAA372D77405B8 /* Pods-PriceCheckAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		735BA4F4E02B226DD875CA4B89AC58BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75C64571F6F3214F76FAA7F0F5654ABD /* cameraRotate@3x.png */,
+				041BD0F49C029675C4E763968CAC1557 /* flashOff@3x.png */,
+				C50FB3FE1E1784E38C81FFB3BCBD1A61 /* flashOn@3x.png */,
+				2D55E1105552A0483D11A8E7EAB4DD29 /* info@3x.png */,
+				BB482DB47F8D6DA1906896142A7EE306 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B47390288886ECB585D213178ACEAC9 /* Pods-PriceCheckApp-PriceCheckAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2630B24FFC04D082A981F99694D9C4B4 /* Pods-PriceCheckApp-PriceCheckAppUITests.modulemap */,
+				650CD215671F4A9D3C7A4710F56F6BC2 /* Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.markdown */,
+				F4D599F84721F8E0F4E5003694FA8CD9 /* Pods-PriceCheckApp-PriceCheckAppUITests-acknowledgements.plist */,
+				D7286186A21E2F70D14CDAF6B6066782 /* Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m */,
+				523EF01FA56CFDF4B8B00A054F4A790C /* Pods-PriceCheckApp-PriceCheckAppUITests-frameworks.sh */,
+				A671E2D77C2F55158D519B173D6822ED /* Pods-PriceCheckApp-PriceCheckAppUITests-Info.plist */,
+				31D4F7DD33CFC7D10A5666918BD22CC5 /* Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h */,
+				0CE805952B4DEEA148C4CECE9E2E9D9D /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */,
+				6F8A977A417B17B4088E3F86039C8CF7 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */,
+			);
+			name = "Pods-PriceCheckApp-PriceCheckAppUITests";
+			path = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests";
+			sourceTree = "<group>";
+		};
+		C347FE7C923E1305E3EAA372D77405B8 /* Pods-PriceCheckAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7272250B65166C069FB7FC329B73B1F2 /* Pods-PriceCheckAppTests.modulemap */,
+				C8DE2C1729DA0A9C0BE9DC3D048A6BD4 /* Pods-PriceCheckAppTests-acknowledgements.markdown */,
+				9D86DD3E1DB4B8B7A378836BF1736BC4 /* Pods-PriceCheckAppTests-acknowledgements.plist */,
+				6ACE1BFAF6465A2DB5FEF4D48CAF39C1 /* Pods-PriceCheckAppTests-dummy.m */,
+				AA1DF313B5DC799B2AA68E1052258D7C /* Pods-PriceCheckAppTests-Info.plist */,
+				56CB87219BE5BB8D0366260C90CCADF7 /* Pods-PriceCheckAppTests-umbrella.h */,
+				433A0037EB9C1ADCEB14043A677A8B9B /* Pods-PriceCheckAppTests.debug.xcconfig */,
+				F5DC82E9440E5C842AE64017B827155E /* Pods-PriceCheckAppTests.release.xcconfig */,
+			);
+			name = "Pods-PriceCheckAppTests";
+			path = "Target Support Files/Pods-PriceCheckAppTests";
+			sourceTree = "<group>";
+		};
+		C976B686CB44450A03E4D1AD56AF0C10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85582B025A16671AA9750074CE230646 /* SwiftSpinner.modulemap */,
+				38CE1556BA55A0755DE3FCFE75BBB7AB /* SwiftSpinner-dummy.m */,
+				4C09088CA4686E0AB79B1B9C47A94F91 /* SwiftSpinner-Info.plist */,
+				712A233BD7C8933576300D581F1FF922 /* SwiftSpinner-prefix.pch */,
+				1C25B5D974AA06E04D8DE0F6CC9E2C85 /* SwiftSpinner-umbrella.h */,
+				96BFEC1AF0B0877331DD9DD6C9793B03 /* SwiftSpinner.debug.xcconfig */,
+				5DAB0CA94E8817940A348A6BA8140877 /* SwiftSpinner.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				2DEC111E9FA3B0F0ECD7FBA9BF3AFF2D /* Pods */,
+				405870BCC245B87003FF1E2801BA7C3D /* Products */,
+				5A78DB3789010697AA564303A31DA50D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F790AA1D7402C2EFE31CAC1A6E3EB3CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD1AFA7F36A0F92CD148114F75F1F /* BarcodeScanner.modulemap */,
+				E404A0700120B0ABB13DD5D5156F80B4 /* BarcodeScanner-dummy.m */,
+				CA44E9E229169B81428436A187DE0480 /* BarcodeScanner-Info.plist */,
+				0816850C2BF58E9444BC6B671B9466CA /* BarcodeScanner-prefix.pch */,
+				D8C1E5F058948556734D49E668F68CA5 /* BarcodeScanner-umbrella.h */,
+				04AA11D0B96D6A7C6A2933B0184836F6 /* BarcodeScanner.debug.xcconfig */,
+				A60FA7ADB8F300BA33EAE362A9811B79 /* BarcodeScanner.release.xcconfig */,
+				7931E32540940E4C474B224BC128D607 /* ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist */,
+				F44D494753B8723EDB09AD6B7803D7D0 /* ResourceBundle-Localization-BarcodeScanner-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarcodeScanner";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		577F5F023949EE5882AEC7EC9AA2D4F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3755448ECF8EE78693A364B8990D9F53 /* BarcodeScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		751648CFBACD067AFEB5D7B4ABD96BC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415BE2E3E30FD82A139CC98BF0500AFF /* Pods-PriceCheckApp-PriceCheckAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B925CEC751B63A9153443D3639BC2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D662143A0910C9B23280638F12BA98E6 /* Pods-PriceCheckApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF76BA70D6224F44EC63D31752533200 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6075168BAA4075F6323680C03184B4 /* SwiftSpinner.h in Headers */,
+				4D25059912454444DF59C99116F5C283 /* SwiftSpinner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6934A3C9D301A959E7730F02A293C99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FE128DDC9711307814EFEA96F85B6D /* Pods-PriceCheckAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AA1ED6F6384B7C34C43FE37400A51DE /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */;
+			buildPhases = (
+				6B0BFFCA882AEB88D180BD257E68684C /* Sources */,
+				0A326B2E7DE4E89EFFC03040A287DD14 /* Frameworks */,
+				34070EB80D61412D4DF275290DDBF364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-BarcodeScanner";
+			productName = BarcodeScanner;
+			productReference = A234A8BFB979A78BC6E93200F1F79F8B /* BarcodeScanner-BarcodeScanner */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87220DC8A707C15250FFD64CBA8A746B /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */;
+			buildPhases = (
+				DEB56F6616574EA6AA7933DFFC4709A3 /* Sources */,
+				1EAC02C3EBED8C161DBEA75177AE6847 /* Frameworks */,
+				C2BB9D6B25F05FFD46FB4C21D9A7B8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarcodeScanner-Localization";
+			productName = Localization;
+			productReference = 74F4D59B519920CD954D013FCD061B86 /* BarcodeScanner-Localization */;
+			productType = "com.apple.product-type.bundle";
+		};
+		39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31F3C26C1861487BCAEABE846D8D148 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */;
+			buildPhases = (
+				577F5F023949EE5882AEC7EC9AA2D4F0 /* Headers */,
+				A7E9D8FE917CC27E1F55A5D8A3708FD2 /* Sources */,
+				1EDE2130521A89A7AD3D64D86EBFB05A /* Frameworks */,
+				EC4DF372C1F7E1F3730B4EE94D7F069A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC49C45639B2FF08FD5596B958BF9CF9 /* PBXTargetDependency */,
+				EC279C51A8D64460FDDA41533684F484 /* PBXTargetDependency */,
+			);
+			name = BarcodeScanner;
+			productName = BarcodeScanner;
+			productReference = CEC6E08D351631DC655F4A648DE0C061 /* BarcodeScanner */;
+			productType = "com.apple.product-type.framework";
+		};
+		68E9536E8BD2FEADF95762A32CA805F5 /* Pods-PriceCheckAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0F2ABCB2DFC2DE5EF37489C9076530 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckAppTests" */;
+			buildPhases = (
+				F6934A3C9D301A959E7730F02A293C99 /* Headers */,
+				DFDF11724273182AA35176AAD86945E9 /* Sources */,
+				EEFB457D3B7D3998BACADB4591394285 /* Frameworks */,
+				B5D25478865930B39A7329EFFDC103E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5792F8A647AD6AE8CE34A70F61F62D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-PriceCheckAppTests";
+			productName = Pods_PriceCheckAppTests;
+			productReference = 6A558649367FC8C5F1B7E3B884A32A83 /* Pods-PriceCheckAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0374D36D946A499689D970CD435E1C9 /* Pods-PriceCheckApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0B3B93224C665DB7BA30665607A153 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckApp" */;
+			buildPhases = (
+				A9B925CEC751B63A9153443D3639BC2C /* Headers */,
+				C94FBD8A768E825905153FC555FB21D8 /* Sources */,
+				C89BDEB4A884B1410340717ED4540380 /* Frameworks */,
+				C9CEEAD56DBACEB3F96448B4F9FAA3F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A932F88652E0D4A7FA8E33E9D0AD95F /* PBXTargetDependency */,
+				C3A5DE57C05840E91EBCA6CED64E9457 /* PBXTargetDependency */,
+			);
+			name = "Pods-PriceCheckApp";
+			productName = Pods_PriceCheckApp;
+			productReference = B897A9C856208ECA343183F529B159FA /* Pods-PriceCheckApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E59DE5DAE963F4E169C0CF918DBFC71 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				EF76BA70D6224F44EC63D31752533200 /* Headers */,
+				9F4C3535D2F0A227F7DBC3772C9A1267 /* Sources */,
+				E674CE28F30909D4F253A1AF5FB0A1E8 /* Frameworks */,
+				D1F65BADD06FB00887196061CF0CD99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = 0C6496C31855334E353C2F02D98D6231 /* SwiftSpinner */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6E9A56D2E57D0D1FFB09B3B305B238F /* Pods-PriceCheckApp-PriceCheckAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000FB46A1A30D308B0BCBE5C012A8FC2 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckApp-PriceCheckAppUITests" */;
+			buildPhases = (
+				751648CFBACD067AFEB5D7B4ABD96BC5 /* Headers */,
+				1DA7386758B09D812BE9E880DF4B8A5D /* Sources */,
+				B0BD8244DC6C850359B89ED09C43CABD /* Frameworks */,
+				27FF844D5E84FE34F6B0D5C6A6906EE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2187AFCCFC58789BA8A34AD5398E898 /* PBXTargetDependency */,
+				0903F0CA7D950E209544F216CA7BD73D /* PBXTargetDependency */,
+			);
+			name = "Pods-PriceCheckApp-PriceCheckAppUITests";
+			productName = Pods_PriceCheckApp_PriceCheckAppUITests;
+			productReference = FC5504EDBD6B6A9E16D6A7A786213B89 /* Pods-PriceCheckApp-PriceCheckAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				de,
+				en,
+				fr,
+				ja,
+				"pl-PL",
+				tr,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 405870BCC245B87003FF1E2801BA7C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */,
+				02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */,
+				2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */,
+				A0374D36D946A499689D970CD435E1C9 /* Pods-PriceCheckApp */,
+				C6E9A56D2E57D0D1FFB09B3B305B238F /* Pods-PriceCheckApp-PriceCheckAppUITests */,
+				68E9536E8BD2FEADF95762A32CA805F5 /* Pods-PriceCheckAppTests */,
+				AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FF844D5E84FE34F6B0D5C6A6906EE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34070EB80D61412D4DF275290DDBF364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CB7B9546C1B309C1FFBF2795E5A6EA /* cameraRotate@3x.png in Resources */,
+				DF3BF6EAD1BC4BF290B9A159F457773A /* flashOff@3x.png in Resources */,
+				AEF3382B2B75D817C09620B3098A328F /* flashOn@3x.png in Resources */,
+				B63FC2A88AC455B73333E8B9E3A13E73 /* info@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D25478865930B39A7329EFFDC103E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BB9D6B25F05FFD46FB4C21D9A7B8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBD12C02875E4B06F4EFD7CB007CE53 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CEEAD56DBACEB3F96448B4F9FAA3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F65BADD06FB00887196061CF0CD99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4DF372C1F7E1F3730B4EE94D7F069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB57AA7F0DF91F474FBD94FCA284452 /* BarcodeScanner-BarcodeScanner in Resources */,
+				ADE02B44B0F6B14EDF45330E5C28ADF6 /* BarcodeScanner-Localization in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA7386758B09D812BE9E880DF4B8A5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3628F9EA2720397EAA98D740AF494F8 /* Pods-PriceCheckApp-PriceCheckAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B0BFFCA882AEB88D180BD257E68684C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4C3535D2F0A227F7DBC3772C9A1267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B757A7DF113FAD35D971E80B8AE008 /* SwiftSpinner.swift in Sources */,
+				921A023C684E698C7099351B6E5AA416 /* SwiftSpinner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E9D8FE917CC27E1F55A5D8A3708FD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				700C48768FCAEF0F35A4C9B252B20A0C /* AVMetadataObject+Extensions.swift in Sources */,
+				4AEC9BCF7384FD789A5D0BAB2F77991F /* BarcodeScanner-dummy.m in Sources */,
+				6C33077F6BBEEFA137313CA1525A18DE /* BarcodeScannerViewController.swift in Sources */,
+				A0CE10B2AB5F96D28540B30454BF6E62 /* CameraViewController.swift in Sources */,
+				B447CB1C46B8F0DD2AAAB486883CE1CB /* FocusViewType.swift in Sources */,
+				EE5A01E096A12A0DD4822EE9CD5ABD6F /* Functions.swift in Sources */,
+				8D100AF17E7FB178FF428DE211ED597E /* HeaderViewController.swift in Sources */,
+				C3AA8B4CFA5BE1FF5F4B5BB1DD8053A0 /* MessageViewController.swift in Sources */,
+				6CCC68077295A821AC9C1E7CC2BC35BC /* NSLayoutConstraint+Extensions.swift in Sources */,
+				FF20513A9C5371CB65C56402A850B36F /* State.swift in Sources */,
+				12576FA40395138A8369CE1927AC95CE /* TorchMode.swift in Sources */,
+				0005307377066EC46EA91823415301C6 /* UIView+Extensions.swift in Sources */,
+				262CBFB84815CDE8C006B8E72B5ED13F /* UIViewController+Extensions.swift in Sources */,
+				C93AF790D67555D90C3738BAC1FA56C7 /* VideoPermissionService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C94FBD8A768E825905153FC555FB21D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73809773535B14850B581F2C2D86597 /* Pods-PriceCheckApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB56F6616574EA6AA7933DFFC4709A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDF11724273182AA35176AAD86945E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B91BC525B65A26660D8E4D9EA231FD5 /* Pods-PriceCheckAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0903F0CA7D950E209544F216CA7BD73D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */;
+			targetProxy = 6A8BEB4994807C2C98246827F2D54DF8 /* PBXContainerItemProxy */;
+		};
+		8A932F88652E0D4A7FA8E33E9D0AD95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 1D7E0BE70FA937688953DE5E34BEB131 /* PBXContainerItemProxy */;
+		};
+		B5792F8A647AD6AE8CE34A70F61F62D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PriceCheckApp";
+			target = A0374D36D946A499689D970CD435E1C9 /* Pods-PriceCheckApp */;
+			targetProxy = AE70EE253CF2F3E37DF92D30C03BAB8D /* PBXContainerItemProxy */;
+		};
+		BC49C45639B2FF08FD5596B958BF9CF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-BarcodeScanner";
+			target = 02E136446D8E897681981873306A783A /* BarcodeScanner-BarcodeScanner */;
+			targetProxy = 5C7E39AC758F5EF188FBA4086CBFA917 /* PBXContainerItemProxy */;
+		};
+		C3A5DE57C05840E91EBCA6CED64E9457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = AD6AB655C132B9B011FC04DDC1E3A292 /* SwiftSpinner */;
+			targetProxy = F813F563B84A6F94DCDB1EF3FFEBA918 /* PBXContainerItemProxy */;
+		};
+		EC279C51A8D64460FDDA41533684F484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BarcodeScanner-Localization";
+			target = 2598A00DF974C904143778EDC46CC0E5 /* BarcodeScanner-Localization */;
+			targetProxy = 6F44006CB316C31417E1DD911CA7FAA7 /* PBXContainerItemProxy */;
+		};
+		F2187AFCCFC58789BA8A34AD5398E898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarcodeScanner;
+			target = 39D656AC88E303625E9AA42D19C21D75 /* BarcodeScanner */;
+			targetProxy = 0073E9BFA9C4FDCB5201AD7DCC868F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB482DB47F8D6DA1906896142A7EE306 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A1DE96A255C6C2BEF997A226172750 /* Localizable.strings */,
+				BAF3374A11B2397BD1397AFFAD001674 /* Localizable.strings */,
+				0F34E513207769FD69CD8936A189931C /* Localizable.strings */,
+				A6DE85F2DE02BD8CB4615DF3B85F949D /* Localizable.strings */,
+				755F686FA65D4ED4FEDC08FD9ABC7D58 /* Localizable.strings */,
+				C3767C99C147342F7AC134D010DBC7D1 /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = Localization;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02591531D7E0EC4F7314BD9615B43563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5DC82E9440E5C842AE64017B827155E /* Pods-PriceCheckAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		146F96037A7E3082D283936092153B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AA11D0B96D6A7C6A2933B0184836F6 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		546DB9D7BA796E639BA953B173B742D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BFEC1AF0B0877331DD9DD6C9793B03 /* SwiftSpinner.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSpinner;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		694E5133273FD83BB55769A719965775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60FA7ADB8F300BA33EAE362A9811B79 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71BA93F076E8C6DDBAE650AADCB3A358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B65B45BFCA348C641C3C2536CEA3D5BA /* Pods-PriceCheckApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8856DE00A9EB27BC15D90457DA895D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60FA7ADB8F300BA33EAE362A9811B79 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-BarcodeScanner-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		890EEF1F34055FFBA4363C0BD05A3160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433A0037EB9C1ADCEB14043A677A8B9B /* Pods-PriceCheckAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7BEF09AFD2E921AE8F08B5922742358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AA11D0B96D6A7C6A2933B0184836F6 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A81104B13B5DCFB8FD09E2A13886F5F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60FA7ADB8F300BA33EAE362A9811B79 /* BarcodeScanner.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BarcodeScanner/BarcodeScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BarcodeScanner/BarcodeScanner.modulemap";
+				PRODUCT_MODULE_NAME = BarcodeScanner;
+				PRODUCT_NAME = BarcodeScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4CEF3CAD0416B742461E97BEB354E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AA11D0B96D6A7C6A2933B0184836F6 /* BarcodeScanner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BarcodeScanner";
+				IBSC_MODULE = BarcodeScanner;
+				INFOPLIST_FILE = "Target Support Files/BarcodeScanner/ResourceBundle-Localization-BarcodeScanner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Localization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D6930DD2B332B0876585290850054359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE8BC41BD2D9D13826BD14D280C11D9 /* Pods-PriceCheckApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D83807B843CE0D5C0C4FFA5E531FBB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE805952B4DEEA148C4CECE9E2E9D9D /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6622F45F1D121319AA1DA0FCE13B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8A977A417B17B4088E3F86039C8CF7 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB5AC5B508AE540C0FB82C8D288AD323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DAB0CA94E8817940A348A6BA8140877 /* SwiftSpinner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSpinner;
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000FB46A1A30D308B0BCBE5C012A8FC2 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckApp-PriceCheckAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D83807B843CE0D5C0C4FFA5E531FBB86 /* Debug */,
+				E6622F45F1D121319AA1DA0FCE13B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AA1ED6F6384B7C34C43FE37400A51DE /* Build configuration list for PBXNativeTarget "BarcodeScanner-BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146F96037A7E3082D283936092153B61 /* Debug */,
+				8856DE00A9EB27BC15D90457DA895D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E59DE5DAE963F4E169C0CF918DBFC71 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546DB9D7BA796E639BA953B173B742D4 /* Debug */,
+				FB5AC5B508AE540C0FB82C8D288AD323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0F2ABCB2DFC2DE5EF37489C9076530 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890EEF1F34055FFBA4363C0BD05A3160 /* Debug */,
+				02591531D7E0EC4F7314BD9615B43563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87220DC8A707C15250FFD64CBA8A746B /* Build configuration list for PBXNativeTarget "BarcodeScanner-Localization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CEF3CAD0416B742461E97BEB354E4D /* Debug */,
+				694E5133273FD83BB55769A719965775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0B3B93224C665DB7BA30665607A153 /* Build configuration list for PBXNativeTarget "Pods-PriceCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6930DD2B332B0876585290850054359 /* Debug */,
+				71BA93F076E8C6DDBAE650AADCB3A358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31F3C26C1861487BCAEABE846D8D148 /* Build configuration list for PBXNativeTarget "BarcodeScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7BEF09AFD2E921AE8F08B5922742358 /* Debug */,
+				A81104B13B5DCFB8FD09E2A13886F5F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

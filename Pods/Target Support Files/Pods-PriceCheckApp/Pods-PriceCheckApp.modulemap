@@ -1,0 +1,6 @@
+framework module Pods_PriceCheckApp {
+  umbrella header "Pods-PriceCheckApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

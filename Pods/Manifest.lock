@@ -1,0 +1,20 @@
+PODS:
+  - BarcodeScanner (5.0.0)
+  - SwiftSpinner (2.2.0)
+
+DEPENDENCIES:
+  - BarcodeScanner
+  - SwiftSpinner
+
+SPEC REPOS:
+  trunk:
+    - BarcodeScanner
+    - SwiftSpinner
+
+SPEC CHECKSUMS:
+  BarcodeScanner: 2f5a53198eae49dc39bf61f2c1f05c04e01ff72d
+  SwiftSpinner: f9b59477fe107427f2b5b835497d6636fa167ede
+
+PODFILE CHECKSUM: 67c0d2b9f669a8f496548eb89a37b46f16f5286e
+
+COCOAPODS: 1.12.1

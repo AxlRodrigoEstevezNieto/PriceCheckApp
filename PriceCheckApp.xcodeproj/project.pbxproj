@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D52ED69AAFFAAAEC3DE6D68 /* Pods_PriceCheckApp_PriceCheckAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF73D2F8FDAB74F5C0C9CD4 /* Pods_PriceCheckApp_PriceCheckAppUITests.framework */; };
+		45090CEC2A05E68C005157E6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 45090CEB2A05E68C005157E6 /* FirebaseAnalytics */; };
+		45090CEE2A05E68C005157E6 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 45090CED2A05E68C005157E6 /* FirebaseAnalyticsSwift */; };
+		45090CF02A05E6C0005157E6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 45090CEF2A05E6C0005157E6 /* FirebaseFirestore */; };
+		45090CF22A05E6D0005157E6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 45090CF12A05E6D0005157E6 /* FirebaseFirestoreSwift */; };
+		45090CF52A05E720005157E6 /* ProdcutosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45090CF42A05E720005157E6 /* ProdcutosViewModel.swift */; };
+		45090CF82A05E79B005157E6 /* ProductosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45090CF72A05E79B005157E6 /* ProductosModel.swift */; };
+		45090CFC2A05E85F005157E6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45090CFB2A05E85F005157E6 /* GoogleService-Info.plist */; };
+		4538166C2A05C73F004D0977 /* HomeViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538166B2A05C73F004D0977 /* HomeViewControllerExtension.swift */; };
+		4538166E2A05D501004D0977 /* HomeViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4538166D2A05D501004D0977 /* HomeViewControllerDelegate.swift */; };
+		456407722A11C9CF00FB9DF3 /* productosRegisterView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456407712A11C9CF00FB9DF3 /* productosRegisterView.storyboard */; };
+		456407752A11CB9600FB9DF3 /* ProductosRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456407742A11CB9600FB9DF3 /* ProductosRegisterViewController.swift */; };
+		4582D8CE2A06F5750096C13C /* NuevoProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8CC2A06F5750096C13C /* NuevoProductoViewController.swift */; };
+		4582D8CF2A06F5750096C13C /* NuevoProductoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4582D8CD2A06F5750096C13C /* NuevoProductoViewController.xib */; };
+		4582D8D12A06FED70096C13C /* NuevoProductoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8D02A06FED70096C13C /* NuevoProductoViewControllerDelegate.swift */; };
+		4582D8D32A0702840096C13C /* NuevoProductoViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8D22A0702840096C13C /* NuevoProductoViewControllerExtension.swift */; };
+		4584F2E62A11CC12002C1828 /* ProductosRegisterViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4584F2E52A11CC12002C1828 /* ProductosRegisterViewControllerExtension.swift */; };
+		45A7BA3F2A059DE000057392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7BA3E2A059DE000057392 /* AppDelegate.swift */; };
+		45A7BA412A059DE000057392 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7BA402A059DE000057392 /* SceneDelegate.swift */; };
+		45A7BA432A059DE000057392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7BA422A059DE000057392 /* ViewController.swift */; };
+		45A7BA462A059DE000057392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BA442A059DE000057392 /* Main.storyboard */; };
+		45A7BA482A059DE000057392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BA472A059DE000057392 /* Assets.xcassets */; };
+		45A7BA4B2A059DE000057392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BA492A059DE000057392 /* LaunchScreen.storyboard */; };
+		45A7BA702A05A2CB00057392 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A7BA6F2A05A2CB00057392 /* HomeView.storyboard */; };
+		45A7BA722A05A42000057392 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A7BA712A05A42000057392 /* HomeViewController.swift */; };
+		45B4E6062A2959EC006AA432 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B4E6042A2959EC006AA432 /* ProductTableViewCell.swift */; };
+		45B4E6072A2959EC006AA432 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45B4E6052A2959EC006AA432 /* ProductTableViewCell.xib */; };
+		45B4E6092A295F42006AA432 /* ProductosRegisterViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B4E6082A295F42006AA432 /* ProductosRegisterViewControllerDelegate.swift */; };
+		A04A8F1BF07EB621687EE033 /* Pods_PriceCheckAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB1DC0FC3F4258AB23BA543 /* Pods_PriceCheckAppTests.framework */; };
+		D72FAB88A2885E8DB415AC11 /* Pods_PriceCheckApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2FCA349431658A0DDB04B6 /* Pods_PriceCheckApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A7BA522A059DE100057392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A7BA332A059DE000057392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A7BA3A2A059DE000057392;
+			remoteInfo = PriceCheckApp;
+		};
+		45A7BA5C2A059DE100057392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45A7BA332A059DE000057392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45A7BA3A2A059DE000057392;
+			remoteInfo = PriceCheckApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0779314B0A42DF08CC54C5D5 /* Pods-PriceCheckApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckApp.release.xcconfig"; path = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp.release.xcconfig"; sourceTree = "<group>"; };
+		215C5E6F3014FB77239FA6A7 /* Pods-PriceCheckAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A2FCA349431658A0DDB04B6 /* Pods_PriceCheckApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceCheckApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45090CF42A05E720005157E6 /* ProdcutosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdcutosViewModel.swift; sourceTree = "<group>"; };
+		45090CF72A05E79B005157E6 /* ProductosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosModel.swift; sourceTree = "<group>"; };
+		45090CFB2A05E85F005157E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		4538166B2A05C73F004D0977 /* HomeViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerExtension.swift; sourceTree = "<group>"; };
+		4538166D2A05D501004D0977 /* HomeViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerDelegate.swift; sourceTree = "<group>"; };
+		456407712A11C9CF00FB9DF3 /* productosRegisterView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = productosRegisterView.storyboard; sourceTree = "<group>"; };
+		456407742A11CB9600FB9DF3 /* ProductosRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosRegisterViewController.swift; sourceTree = "<group>"; };
+		4582D8CC2A06F5750096C13C /* NuevoProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoProductoViewController.swift; sourceTree = "<group>"; };
+		4582D8CD2A06F5750096C13C /* NuevoProductoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NuevoProductoViewController.xib; sourceTree = "<group>"; };
+		4582D8D02A06FED70096C13C /* NuevoProductoViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoProductoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		4582D8D22A0702840096C13C /* NuevoProductoViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevoProductoViewControllerExtension.swift; sourceTree = "<group>"; };
+		4584F2E52A11CC12002C1828 /* ProductosRegisterViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosRegisterViewControllerExtension.swift; sourceTree = "<group>"; };
+		45A7BA3B2A059DE000057392 /* PriceCheckApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheckApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7BA3E2A059DE000057392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45A7BA402A059DE000057392 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45A7BA422A059DE000057392 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45A7BA452A059DE000057392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45A7BA472A059DE000057392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45A7BA4A2A059DE000057392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45A7BA4C2A059DE000057392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A7BA512A059DE100057392 /* PriceCheckAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceCheckAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7BA5B2A059DE100057392 /* PriceCheckAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceCheckAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A7BA6F2A05A2CB00057392 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		45A7BA712A05A42000057392 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		45B4E6042A2959EC006AA432 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		45B4E6052A2959EC006AA432 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		45B4E6082A295F42006AA432 /* ProductosRegisterViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosRegisterViewControllerDelegate.swift; sourceTree = "<group>"; };
+		5161DBB0B622DB02792E4BCE /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB1DC0FC3F4258AB23BA543 /* Pods_PriceCheckAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceCheckAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6846AA4250C843611823B5F3 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF73D2F8FDAB74F5C0C9CD4 /* Pods_PriceCheckApp_PriceCheckAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriceCheckApp_PriceCheckAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47FC7C2013FE024C5BEC9A5 /* Pods-PriceCheckAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckAppTests.release.xcconfig"; path = "Target Support Files/Pods-PriceCheckAppTests/Pods-PriceCheckAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE6BF3491823832FC3E9E89D /* Pods-PriceCheckApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriceCheckApp.debug.xcconfig"; path = "Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45A7BA382A059DE000057392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45090CF22A05E6D0005157E6 /* FirebaseFirestoreSwift in Frameworks */,
+				45090CEE2A05E68C005157E6 /* FirebaseAnalyticsSwift in Frameworks */,
+				45090CF02A05E6C0005157E6 /* FirebaseFirestore in Frameworks */,
+				45090CEC2A05E68C005157E6 /* FirebaseAnalytics in Frameworks */,
+				D72FAB88A2885E8DB415AC11 /* Pods_PriceCheckApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA4E2A059DE100057392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04A8F1BF07EB621687EE033 /* Pods_PriceCheckAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA582A059DE100057392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D52ED69AAFFAAAEC3DE6D68 /* Pods_PriceCheckApp_PriceCheckAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45090CF32A05E707005157E6 /* productos */ = {
+			isa = PBXGroup;
+			children = (
+				4564076A2A11C3A800FB9DF3 /* productosExistentes */,
+				45090CF62A05E789005157E6 /* Model */,
+				45090CF42A05E720005157E6 /* ProdcutosViewModel.swift */,
+			);
+			path = productos;
+			sourceTree = "<group>";
+		};
+		45090CF62A05E789005157E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45090CF72A05E79B005157E6 /* ProductosModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4564076A2A11C3A800FB9DF3 /* productosExistentes */ = {
+			isa = PBXGroup;
+			children = (
+				456407732A11CB7C00FB9DF3 /* productoCell */,
+				456407712A11C9CF00FB9DF3 /* productosRegisterView.storyboard */,
+				456407742A11CB9600FB9DF3 /* ProductosRegisterViewController.swift */,
+				4584F2E52A11CC12002C1828 /* ProductosRegisterViewControllerExtension.swift */,
+				45B4E6082A295F42006AA432 /* ProductosRegisterViewControllerDelegate.swift */,
+			);
+			path = productosExistentes;
+			sourceTree = "<group>";
+		};
+		456407732A11CB7C00FB9DF3 /* productoCell */ = {
+			isa = PBXGroup;
+			children = (
+				45B4E6042A2959EC006AA432 /* ProductTableViewCell.swift */,
+				45B4E6052A2959EC006AA432 /* ProductTableViewCell.xib */,
+			);
+			path = productoCell;
+			sourceTree = "<group>";
+		};
+		4582D8CB2A06F5370096C13C /* nuevoProductoView */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8CD2A06F5750096C13C /* NuevoProductoViewController.xib */,
+				4582D8CC2A06F5750096C13C /* NuevoProductoViewController.swift */,
+				4582D8D22A0702840096C13C /* NuevoProductoViewControllerExtension.swift */,
+				4582D8D02A06FED70096C13C /* NuevoProductoViewControllerDelegate.swift */,
+			);
+			path = nuevoProductoView;
+			sourceTree = "<group>";
+		};
+		45A7BA322A059DE000057392 = {
+			isa = PBXGroup;
+			children = (
+				45A7BA3D2A059DE000057392 /* PriceCheckApp */,
+				45A7BA3C2A059DE000057392 /* Products */,
+				79D8C3A657020BC285C651AD /* Pods */,
+				67CA8F0675E7DC1E9885C274 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45A7BA3C2A059DE000057392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45A7BA3B2A059DE000057392 /* PriceCheckApp.app */,
+				45A7BA512A059DE100057392 /* PriceCheckAppTests.xctest */,
+				45A7BA5B2A059DE100057392 /* PriceCheckAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45A7BA3D2A059DE000057392 /* PriceCheckApp */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8CB2A06F5370096C13C /* nuevoProductoView */,
+				45090CF32A05E707005157E6 /* productos */,
+				45A7BA6E2A05A2BA00057392 /* home */,
+				45A7BA3E2A059DE000057392 /* AppDelegate.swift */,
+				45A7BA402A059DE000057392 /* SceneDelegate.swift */,
+				45A7BA422A059DE000057392 /* ViewController.swift */,
+				45090CFB2A05E85F005157E6 /* GoogleService-Info.plist */,
+				45A7BA442A059DE000057392 /* Main.storyboard */,
+				45A7BA472A059DE000057392 /* Assets.xcassets */,
+				45A7BA492A059DE000057392 /* LaunchScreen.storyboard */,
+				45A7BA4C2A059DE000057392 /* Info.plist */,
+			);
+			path = PriceCheckApp;
+			sourceTree = "<group>";
+		};
+		45A7BA6E2A05A2BA00057392 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				45A7BA6F2A05A2CB00057392 /* HomeView.storyboard */,
+				45A7BA712A05A42000057392 /* HomeViewController.swift */,
+				4538166B2A05C73F004D0977 /* HomeViewControllerExtension.swift */,
+				4538166D2A05D501004D0977 /* HomeViewControllerDelegate.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		67CA8F0675E7DC1E9885C274 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2FCA349431658A0DDB04B6 /* Pods_PriceCheckApp.framework */,
+				BAF73D2F8FDAB74F5C0C9CD4 /* Pods_PriceCheckApp_PriceCheckAppUITests.framework */,
+				5AB1DC0FC3F4258AB23BA543 /* Pods_PriceCheckAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79D8C3A657020BC285C651AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BF3491823832FC3E9E89D /* Pods-PriceCheckApp.debug.xcconfig */,
+				0779314B0A42DF08CC54C5D5 /* Pods-PriceCheckApp.release.xcconfig */,
+				5161DBB0B622DB02792E4BCE /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */,
+				6846AA4250C843611823B5F3 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */,
+				215C5E6F3014FB77239FA6A7 /* Pods-PriceCheckAppTests.debug.xcconfig */,
+				D47FC7C2013FE024C5BEC9A5 /* Pods-PriceCheckAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45A7BA3A2A059DE000057392 /* PriceCheckApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7BA652A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckApp" */;
+			buildPhases = (
+				2354BA3B2E902557F6D4258F /* [CP] Check Pods Manifest.lock */,
+				45A7BA372A059DE000057392 /* Sources */,
+				45A7BA382A059DE000057392 /* Frameworks */,
+				45A7BA392A059DE000057392 /* Resources */,
+				62321428E266585839895D38 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriceCheckApp;
+			packageProductDependencies = (
+				45090CEB2A05E68C005157E6 /* FirebaseAnalytics */,
+				45090CED2A05E68C005157E6 /* FirebaseAnalyticsSwift */,
+				45090CEF2A05E6C0005157E6 /* FirebaseFirestore */,
+				45090CF12A05E6D0005157E6 /* FirebaseFirestoreSwift */,
+			);
+			productName = PriceCheckApp;
+			productReference = 45A7BA3B2A059DE000057392 /* PriceCheckApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45A7BA502A059DE100057392 /* PriceCheckAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7BA682A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckAppTests" */;
+			buildPhases = (
+				F83CCC66414675FFE7528185 /* [CP] Check Pods Manifest.lock */,
+				45A7BA4D2A059DE100057392 /* Sources */,
+				45A7BA4E2A059DE100057392 /* Frameworks */,
+				45A7BA4F2A059DE100057392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A7BA532A059DE100057392 /* PBXTargetDependency */,
+			);
+			name = PriceCheckAppTests;
+			productName = PriceCheckAppTests;
+			productReference = 45A7BA512A059DE100057392 /* PriceCheckAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45A7BA5A2A059DE100057392 /* PriceCheckAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45A7BA6B2A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckAppUITests" */;
+			buildPhases = (
+				57F04420FF3649E33BD811EF /* [CP] Check Pods Manifest.lock */,
+				45A7BA572A059DE100057392 /* Sources */,
+				45A7BA582A059DE100057392 /* Frameworks */,
+				45A7BA592A059DE100057392 /* Resources */,
+				4E07A969E9FC8C69EA991FA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45A7BA5D2A059DE100057392 /* PBXTargetDependency */,
+			);
+			name = PriceCheckAppUITests;
+			productName = PriceCheckAppUITests;
+			productReference = 45A7BA5B2A059DE100057392 /* PriceCheckAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45A7BA332A059DE000057392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					45A7BA3A2A059DE000057392 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					45A7BA502A059DE100057392 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 45A7BA3A2A059DE000057392;
+					};
+					45A7BA5A2A059DE100057392 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 45A7BA3A2A059DE000057392;
+					};
+				};
+			};
+			buildConfigurationList = 45A7BA362A059DE000057392 /* Build configuration list for PBXProject "PriceCheckApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45A7BA322A059DE000057392;
+			packageReferences = (
+				45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 45A7BA3C2A059DE000057392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45A7BA3A2A059DE000057392 /* PriceCheckApp */,
+				45A7BA502A059DE100057392 /* PriceCheckAppTests */,
+				45A7BA5A2A059DE100057392 /* PriceCheckAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45A7BA392A059DE000057392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45A7BA4B2A059DE000057392 /* LaunchScreen.storyboard in Resources */,
+				45A7BA482A059DE000057392 /* Assets.xcassets in Resources */,
+				4582D8CF2A06F5750096C13C /* NuevoProductoViewController.xib in Resources */,
+				456407722A11C9CF00FB9DF3 /* productosRegisterView.storyboard in Resources */,
+				45090CFC2A05E85F005157E6 /* GoogleService-Info.plist in Resources */,
+				45B4E6072A2959EC006AA432 /* ProductTableViewCell.xib in Resources */,
+				45A7BA702A05A2CB00057392 /* HomeView.storyboard in Resources */,
+				45A7BA462A059DE000057392 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA4F2A059DE100057392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA592A059DE100057392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2354BA3B2E902557F6D4258F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceCheckApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E07A969E9FC8C69EA991FA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp-PriceCheckAppUITests/Pods-PriceCheckApp-PriceCheckAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57F04420FF3649E33BD811EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceCheckApp-PriceCheckAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62321428E266585839895D38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PriceCheckApp/Pods-PriceCheckApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F83CCC66414675FFE7528185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriceCheckAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A7BA372A059DE000057392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4582D8CE2A06F5750096C13C /* NuevoProductoViewController.swift in Sources */,
+				4582D8D32A0702840096C13C /* NuevoProductoViewControllerExtension.swift in Sources */,
+				4538166E2A05D501004D0977 /* HomeViewControllerDelegate.swift in Sources */,
+				456407752A11CB9600FB9DF3 /* ProductosRegisterViewController.swift in Sources */,
+				45A7BA432A059DE000057392 /* ViewController.swift in Sources */,
+				4538166C2A05C73F004D0977 /* HomeViewControllerExtension.swift in Sources */,
+				45090CF82A05E79B005157E6 /* ProductosModel.swift in Sources */,
+				45A7BA3F2A059DE000057392 /* AppDelegate.swift in Sources */,
+				45090CF52A05E720005157E6 /* ProdcutosViewModel.swift in Sources */,
+				45B4E6062A2959EC006AA432 /* ProductTableViewCell.swift in Sources */,
+				4582D8D12A06FED70096C13C /* NuevoProductoViewControllerDelegate.swift in Sources */,
+				45A7BA412A059DE000057392 /* SceneDelegate.swift in Sources */,
+				45A7BA722A05A42000057392 /* HomeViewController.swift in Sources */,
+				4584F2E62A11CC12002C1828 /* ProductosRegisterViewControllerExtension.swift in Sources */,
+				45B4E6092A295F42006AA432 /* ProductosRegisterViewControllerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA4D2A059DE100057392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45A7BA572A059DE100057392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45A7BA532A059DE100057392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A7BA3A2A059DE000057392 /* PriceCheckApp */;
+			targetProxy = 45A7BA522A059DE100057392 /* PBXContainerItemProxy */;
+		};
+		45A7BA5D2A059DE100057392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45A7BA3A2A059DE000057392 /* PriceCheckApp */;
+			targetProxy = 45A7BA5C2A059DE100057392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45A7BA442A059DE000057392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A7BA452A059DE000057392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45A7BA492A059DE000057392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45A7BA4A2A059DE000057392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45A7BA632A059DE100057392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45A7BA642A059DE100057392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45A7BA662A059DE100057392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE6BF3491823832FC3E9E89D /* Pods-PriceCheckApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceCheckApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use camera for scanner barcode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45A7BA672A059DE100057392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0779314B0A42DF08CC54C5D5 /* Pods-PriceCheckApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PriceCheckApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use camera for scanner barcode";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45A7BA692A059DE100057392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215C5E6F3014FB77239FA6A7 /* Pods-PriceCheckAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceCheckApp";
+			};
+			name = Debug;
+		};
+		45A7BA6A2A059DE100057392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47FC7C2013FE024C5BEC9A5 /* Pods-PriceCheckAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PriceCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PriceCheckApp";
+			};
+			name = Release;
+		};
+		45A7BA6C2A059DE100057392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5161DBB0B622DB02792E4BCE /* Pods-PriceCheckApp-PriceCheckAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceCheckApp;
+			};
+			name = Debug;
+		};
+		45A7BA6D2A059DE100057392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6846AA4250C843611823B5F3 /* Pods-PriceCheckApp-PriceCheckAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZCG6L5SS9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AEstevez.PriceCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PriceCheckApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45A7BA362A059DE000057392 /* Build configuration list for PBXProject "PriceCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7BA632A059DE100057392 /* Debug */,
+				45A7BA642A059DE100057392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7BA652A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7BA662A059DE100057392 /* Debug */,
+				45A7BA672A059DE100057392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7BA682A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7BA692A059DE100057392 /* Debug */,
+				45A7BA6A2A059DE100057392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45A7BA6B2A059DE100057392 /* Build configuration list for PBXNativeTarget "PriceCheckAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45A7BA6C2A059DE100057392 /* Debug */,
+				45A7BA6D2A059DE100057392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45090CEB2A05E68C005157E6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		45090CED2A05E68C005157E6 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		45090CEF2A05E6C0005157E6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		45090CF12A05E6D0005157E6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45090CEA2A05E68C005157E6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45A7BA332A059DE000057392 /* Project object */;
+}
